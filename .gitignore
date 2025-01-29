@@ -1,0 +1,12 @@
+# Ignore the dist/ folder (compiled files)
+dist/
+
+# Ignore other common build directories
+build/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore other system files
+.DS_Store
+*.log

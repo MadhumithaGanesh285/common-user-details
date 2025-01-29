@@ -1,0 +1,30 @@
+{
+  "name": "common-user-details",
+  "version": "1.0.0",
+  "description": "A common platform package for fetching and displaying user data.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+   "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "Madhumitha Ganesh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^19.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadhumithaGanesh285/common-user-details.git"
+  }
+}
